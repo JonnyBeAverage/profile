@@ -1,0 +1,139 @@
+body {
+  background-color: rgb(199, 226, 235);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:purple;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h1 {
+  color: red;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 20px;
+  color: blueviolet;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(18, 18, 80);
+}
+a:hover {
+  color: white;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 15px;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.link-btn {
+  background-color: gray;
+  box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 5px;
+  width: 120px;
+  margin: 15px auto;
+  border-radius: 10px;
+
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  background: #3B5998;
+  color: white;
+}
+#fa:hover {
+  opacity: 0.7;
+}
+#gi {
+  padding: 20px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  background: rgb(189, 44, 0);
+  color: white;
+}
+#gi:hover {
+  opacity: 0.7;
+}
+
+#tw {
+  color: rgb(0, 172, 238);
+}
+
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px;
+}
+
+/* .list-inline li {
+  display: inline-block;
+  padding: 20px;
+} */
+
+@media (max-width: 540px) {
+  .container {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  #profile-pic {
+    width: 100px
+  }
+
+  .card-white {
+    width: 400px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  #profile-pic {
+    width: 160px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+}
+
+/* @media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+} */
